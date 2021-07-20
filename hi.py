@@ -11,8 +11,8 @@ options.add_argument("--user-data-dir=/home/pi/.config/chromium")
 driver = webdriver.Chrome(options=options)
 
 ### gmeet link + setup ###
-meet_code="qxq-ejfs-cpp"
-chat_messg="hi"
+meet_code="YOUR_MEET_CODE_HERE"
+chat_messg="CHAT_MESSAGE_HERE"
 
 delay=3
 
