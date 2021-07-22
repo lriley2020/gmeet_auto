@@ -16,8 +16,7 @@ chat_messg="CHAT_MESSAGE_HERE"
 
 delay=3
 
-#driver.get(f"https://meet.google.com/{meet_code}?authuser=1")
-driver.get("https://meet.google.com/lookup/aieypfcq3f?authuser=1&hs=179")
+driver.get(f"https://meet.google.com/{meet_code}?authuser=1")
 driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'e')
 join_button = WebDriverWait(driver, delay).until(
     EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Join now')]")))
