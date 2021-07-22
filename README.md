@@ -15,6 +15,6 @@ Automatically joins your google meets so you don't have to!
 
    linux: `sudo apt install chromium-chromedriver` or if your distro doesn't use apt, download from [official chromium page](https://chromedriver.chromium.org/downloads)
 
-5. Edit the `hi.py` file and find the section beginning `### gmeet link + setup ###`. Add your config below.
+5. Edit the `hi.py` file and find the section beginning `### gmeet link + setup ###`. Add your meet code and message to the `meet_code` and `chat_messg` variables.
 
 6. Run the file with `python3 ~/gmeet_auto/hi.py` (you could schedule the execution of this script with `cron`)
